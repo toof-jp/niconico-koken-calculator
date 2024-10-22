@@ -1,7 +1,7 @@
-use std::thread::sleep;
-use std::time::Duration;
 use std::collections::HashMap;
 use std::env;
+use std::thread::sleep;
+use std::time::Duration;
 
 use anyhow::{Ok, Result};
 use secrecy::{ExposeSecret, SecretString};
