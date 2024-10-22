@@ -1,0 +1,13 @@
+[package]
+name = "niconico-koken-calculator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.90"
+dotenvy = "0.15.7"
+envy = "0.4.2"
+reqwest = { version = "0.12", features = ["json"] }
+secrecy = { version = "0.10.3", features = ["serde"] }
+serde = { version = "1.0.211", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
